@@ -108,7 +108,9 @@
       <h3>Időszalag</h3>
       <form>
         <p>A versenysorozat dobogósai:</p>
-        <input type="range" class="form-control-range" id="verseny" value="41">
+        <input type="range" class="form-control-range" id="verseny" aria-valuemin="1" aria-valuemax="41">
+        <script>gyoztesek.forEach(frissit);
+        </script>
         <strong><span id="sorszam">41</span>. Tour de Hongrie győztesei:</strong>
         <ol class="helyezes">
           <li><p id="hely1"><strong>Valter Attila (HUN)<br>18:45:55</strong></p></li>
